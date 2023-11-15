@@ -1,0 +1,17 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFToggleButton"
+        xmlns:Controls="clr-namespace:WPFToggleButton.Controls" x:Class="WPFToggleButton.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <Controls:SimpleToggleButton Height="70" Width="155"
+                                     BorderThickness="3" BorderBrush="DarkCyan"
+                                     CornerRadius="20"/>
+
+    </Grid>
+</Window>
